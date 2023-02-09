@@ -31,6 +31,7 @@ In order to successfully copy a given project board, you need to follow the belo
               choco install jq
           ```
           - if you do not have chocolately installed follow [this guide](https://www.liquidweb.com/kb/how-to-install-chocolatey-on-windows/)
+          - thanks to curtosy of [Lucas Erkana](https://github.com/Lucash2022) you can see how the whole process should look like on Windows [in this video](https://www.loom.com/share/8cd5e493f0ca4a9ab90989e2ca1ceb3c)
 
 4. Generate [personal access token for GitHub API](https://github.com/settings/tokens/new?scopes=repo).
 
