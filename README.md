@@ -44,8 +44,22 @@ In order to successfully copy a given project board, you need to follow the belo
          cd curriculum-tools-copy-projects
      ```
 4. Run script with correct input parameters
+     - for the JavaScript Group Capstone:
+
      ``` bash
-         sh copy_github_board.sh <YOUR_GITHUB_AUTH_TOKEN> <SOURCE_GITHUB_USERNAME> <SOURCE_REPO_NAME> <YOUR_GITHUB_USERNAME> <YOUR_GROUP_PROJECT_REPO_NAME> 
+         sh copy_github_board.sh <YOUR_GITHUB_AUTH_TOKEN> microverseinc curriculum-javascript <YOUR_GITHUB_USERNAME> <YOUR_GROUP_PROJECT_REPO_NAME> 
+     ```
+
+     - for the React Group Capstone:
+
+     ``` bash
+         sh copy_github_board.sh <YOUR_GITHUB_AUTH_TOKEN> microverseinc curriculum-react-redux <YOUR_GITHUB_USERNAME> <YOUR_GROUP_PROJECT_REPO_NAME> 
+     ```
+
+     - for the Ruby Group Capstone:
+
+     ``` bash
+         sh copy_github_board.sh <YOUR_GITHUB_AUTH_TOKEN> microverseinc curriculum-ruby <YOUR_GITHUB_USERNAME> <YOUR_GROUP_PROJECT_REPO_NAME> 
      ```
      
      🐛 _In case of errors, try to use:_
@@ -53,11 +67,7 @@ In order to successfully copy a given project board, you need to follow the belo
          bash copy_github_board.sh <YOUR_GITHUB_AUTH_TOKEN> <SOURCE_GITHUB_USERNAME> <SOURCE_REPO_NAME> <YOUR_GITHUB_USERNAME> <YOUR_GROUP_PROJECT_REPO_NAME> 
      ```
      
-    - for example, in case of the JavaScript Group Capstone, you should use:
-
-     ``` bash
-         sh copy_github_board.sh <YOUR_GITHUB_AUTH_TOKEN> microverseinc curriculum-javascript <YOUR_GITHUB_USERNAME> <YOUR_GROUP_PROJECT_REPO_NAME> 
-     ```
+    
 5. Verify that the template project board and your board look exactly the same.
 
 ### Troubleshooting
